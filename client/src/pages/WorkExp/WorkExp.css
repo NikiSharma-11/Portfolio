@@ -1,0 +1,26 @@
+.work {
+    margin-left: 150px;
+    margin-top: 60px;
+    background-color: #1387812a;
+  }
+
+  .work-exp{
+    padding: 60px 0px;
+  }
+  
+  .work-exp hr {
+    color: blue;
+    width: 500px;
+    margin: 10px auto;
+  }
+  
+  .work-exp h2 {
+    font-weight: bold;
+    color: rgba(0, 128, 51, 0.753);
+  }
+  .work-exp h3{
+    text-align: center;
+    color: #1e1e2c;
+  }
+
+ 

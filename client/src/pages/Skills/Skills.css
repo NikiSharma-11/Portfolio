@@ -1,0 +1,37 @@
+.skills{
+    padding-left: 150px;
+    margin-top: 60px;
+
+}
+.skills hr{
+    color: blue;
+    width:500px;
+    margin: 10px auto;
+    
+}
+
+.skills h2{
+    font-weight: bold;
+    color: rgba(0, 128, 51, 0.753);
+}
+
+.skillList{
+    padding-left: 120px;
+}
+
+.skillList .card{
+  cursor: pointer;
+}
+
+.skillList .card:hover{
+    background-color: #138781;
+    color: white;
+    border: none;
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+.skill .skill-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}

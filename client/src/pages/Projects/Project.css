@@ -1,0 +1,114 @@
+.project {
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  
+  .project hr {
+    color: blue;
+    width: 500px;
+    margin: 10px auto;
+  }
+  
+  .project h2 {
+    font-weight: bold;
+    color: rgba(0, 128, 51, 0.753);
+  }
+  
+  #ads {
+    margin-top: 30px;
+  }
+  
+  #ads .card-notify-badge {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background-color: #f29f67;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+    z-index: 2;
+  }
+  
+  .project .card {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .project .card:hover{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    transition: all 1s ease;
+  }
+  .project .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .ad-title h5 {
+    margin: 0;
+  }
+  
+  .badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .card-detail-badge {
+    background-color: #6c757d;
+    color: white;
+    padding: 3px 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .ad-btn {
+    display: block;
+    background-color: #138781;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+  }
+  .ad-btn:hover{
+    background-color: hsl(48, 48%, 29%);
+    color: #138781;
+    background: transparent;
+    border: 2px solid;
+    transition: all 0.5s ease;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .project {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .project hr {
+      width: 100%;
+    }
+  
+    .card img {
+      height: auto;
+    }
+  }
+  

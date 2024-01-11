@@ -1,0 +1,131 @@
+.contact {
+    margin-left: 150px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .card1, .card2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .card1 {
+    overflow: hidden;
+  }
+
+
+.card1 img {
+    width: 100%; /* Ensures the image takes the full width of the container */
+    height: 450px; /* Keeps the image aspect ratio */ 
+    object-fit: cover;
+    
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card2 h6 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333; 
+}
+.border-line{
+    border-right: 1px solid #e0e0e0;
+}
+
+.line {
+   
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+
+.or {
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+   
+}
+.placeholder{
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+input :focus, textarea :focus{
+    box-shadow: none !important;
+    outline: 1px solid #138781 !important;
+    outline-width: 0px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button :focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .card1, .card2 {
+      width: 100%;
+      max-height: none;
+    }
+  
+    .contact {
+      margin-left: 0;
+    }
+  }
