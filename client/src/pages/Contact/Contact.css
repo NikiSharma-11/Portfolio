@@ -115,17 +115,29 @@ button :focus{
 }
 
 
+/* Responsive Images */
+.card1 img {
+    width: 100%;
+    height: auto; /* Adjusts height automatically */
+}
+
+/* Error Message Styling */
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Responsive Design Adjustments */
 @media (max-width: 768px) {
-    .row {
-      flex-direction: column;
-    }
-  
-    .card1, .card2 {
-      width: 100%;
-      max-height: none;
-    }
-  
     .contact {
-      margin-left: 0;
+        margin-left: 150;
     }
-  }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .card1, .card2 {
+        width: 100%;
+    }
+}

@@ -15,12 +15,20 @@
     color: rgba(0, 128, 51, 0.753);
 }
 
-.skillList{
-    padding-left: 120px;
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px; /* Adjust the gap between items */
+    margin: 0;
+    padding: 0;
 }
 
-.skillList .card{
-  cursor: pointer;
+.skillList .card {
+    flex: 1 1 200px; /* Adjusts the basis and allows flex-grow */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .skillList .card:hover{
@@ -34,4 +42,48 @@
 .skill .skill-icon{
     font-size: 2rem;
     margin-right: 10px;
+}
+
+
+
+/* Media styling for responsive design */
+@media (max-width: 767px) {
+    .skillList .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-left: 150px;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .container.skills {
+        margin-left: 200px; /* Adjust for smaller sidebar */
+    }
+}
+
+@media (max-width: 991px) {
+    .container.skills {
+        margin-left: 100px; /* Adjust for smaller devices */
+    }
+}
+
+@media (max-width: 767px) {
+    .container.skills {
+        margin-left: 20px; /* Adjust for mobile devices */
+    }
+
+    .skillList .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 10%;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 575px) {
+    .skillList .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 70%;
+        margin-left: 150px;
+    }
 }

@@ -1,3 +1,4 @@
+import './App.css'
 import Layout from "./components/Layout/Layout";
 import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
@@ -16,8 +17,6 @@ function App() {
   return (
     <>
     <div id={theme}>
-
-    
     <Layout/> 
     <div className="container">
     <About />

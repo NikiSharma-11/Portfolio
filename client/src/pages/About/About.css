@@ -29,3 +29,35 @@
 .about-content p{
     text-align: justify;
 }
+
+/* Responsive grid adjustments */
+@media (max-width: 992px) { /* Medium screens */
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) { /* Small screens */
+    .about {
+        padding: 10px;
+    }
+
+    .about-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-img, .about-content {
+        padding: 10px;
+    }
+
+    .about-img img {
+        max-width: 80%; /* Optionally, reduce the image size on very small screens */
+        margin: 0 auto; /* Center the image if the width is less than 100% */
+    }
+}

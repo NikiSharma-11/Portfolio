@@ -31,5 +31,41 @@
     margin-top: 30px;
 }
   
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 60px; /* Smaller sidebar for smaller screens */
+    }
+
+    .sidebar-toggle {
+        width: 160px;
+    }
+
+    .main-content {
+        margin-left: 60px; /* Adjust margin to match the smaller sidebar */
+    }
+
+    /* If the sidebar is toggled off, hide it completely */
+    .sidebar:not(.sidebar-toggle) {
+        width: 0;
+        overflow: hidden;
+    }
+
+    /* Adjust margin of main content when sidebar is toggled off */
+    .sidebar-section .sidebar:not(.sidebar-toggle) + .main-content {
+        margin-left: 0;
+    }
+}
+
+/* Larger devices */
+@media (min-width: 992px) {
+    .main-content {
+        margin-left: 200px; /* Larger margin for larger sidebar */
+    }
+
+    .sidebar-toggle {
+        width: 200px;
+    }
+}
 
  

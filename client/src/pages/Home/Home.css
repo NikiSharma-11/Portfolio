@@ -64,3 +64,38 @@
     z-index: 1;
 
 }
+
+
+
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+    .home-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets and small desktops */
+    .home-header h1 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* Styles for large desktops */
+    .home-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+}

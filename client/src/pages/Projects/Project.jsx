@@ -9,8 +9,8 @@ const Project = () => {
     <div className=" project" id='proj'>
       <h2 className='col-12 mt-3 mb-1 text-center'>RECENT PROJECTS</h2>
       <hr/>
-      <p className='pb-3 text-center'>Here are my three recent projects with live link and source code</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui ipsum ratione sed dolore expedita iure repellendus, aut sapiente, aperiam, aspernatur tempore quasi! Molestiae enim nihil doloribus unde veniam odit modi!</p>
+      <p className='pb-3 text-center'>Here are my three recent projects with github link and source code</p>
+      
      
       {/* Card design */}
       <div className="row" id="ads">
@@ -50,7 +50,7 @@ const Project = () => {
             </div>
             <div className="card-body">
               <div className="ad-title m-auto">
-                <h5 className="text-uppercase">Portolio Website</h5>
+                <h5 className="text-uppercase">Portfolio Website</h5>
               </div>
               <a className='ad-btn' href='#'>View</a>
             </div>

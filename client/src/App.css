@@ -1,8 +1,31 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Footer Styles */
+.footer {
+  padding-bottom: 3rem;
+  margin-left: 3rem;
   text-align: center;
 }
 
+.footer h4 {
+  color: #333; /* Adjust the color as needed */
+  font-size: 1.2rem; /* Initial font size */
+  margin-left: 6rem;
+}
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .footer {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding-bottom: 2rem;
+  }
+
+  .footer h4 {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer h4 {
+      font-size: 0.9rem;
+  }
+}

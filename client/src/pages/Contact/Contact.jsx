@@ -11,7 +11,7 @@ const Contact = () => {
   const [error, setError] = useState('');
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     const contactDetails = { name, email, message };
     const url = "http://localhost:4000/api/v1/contact/contact"; 
 
@@ -35,7 +35,7 @@ const Contact = () => {
         setName('');
         setEmail('');
         setMessage('');
-        alert("Your message sent successfully")
+        window.alert("Your message sent successfully")
         
       }
     } catch (err) {
